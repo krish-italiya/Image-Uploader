@@ -3,7 +3,7 @@ import './App.css'
 import UploadImage from './UploadImage'
 import { useState } from "react"
 import CopyImage from "./CopyImage"
-axios.defaults.baseURL = "https://image-uploader.onrender.com"
+axios.defaults.baseURL = "https://image-uploader-api-j85r.onrender.com"
 
 function App() {
   const [uploaded, setUploaded] = useState(false)

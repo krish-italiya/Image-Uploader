@@ -15,7 +15,7 @@ const CopyImage = ({ photos }) => {
     }, []);
 
     const generateLink = (link) => {
-        return `https://image-uploader.onrender.com/uploads/${link}`
+        return `https://image-uploader-api-j85r.onrender.com/uploads/${link}`
     }
 
     return (
